@@ -1,0 +1,19 @@
+{
+  "main.js": "static/js/main.d4ce8b80.js",
+  "main.js.map": "static/js/main.d4ce8b80.js.map",
+  "static\\media\\AboutMe.scss": "static/media/AboutMe.79e3e3b5.scss",
+  "static\\media\\App.scss": "static/media/App.a20405a3.scss",
+  "static\\media\\Contact.scss": "static/media/Contact.a4cde8ed.scss",
+  "static\\media\\Footer.scss": "static/media/Footer.f579cd8b.scss",
+  "static\\media\\Header.scss": "static/media/Header.46893427.scss",
+  "static\\media\\Nav.scss": "static/media/Nav.7e772571.scss",
+  "static\\media\\NavBurger.scss": "static/media/NavBurger.5b80dc24.scss",
+  "static\\media\\Portfolio.scss": "static/media/Portfolio.0132e0e6.scss",
+  "static\\media\\React_logo.png": "static/media/React_logo.2b69ab84.png",
+  "static\\media\\Redux_logo.png": "static/media/Redux_logo.684c6918.png",
+  "static\\media\\Sass_logo.png": "static/media/Sass_logo.d7c3f1bb.png",
+  "static\\media\\Skills.scss": "static/media/Skills.f729cccc.scss",
+  "static\\media\\index.scss": "static/media/index.26bb5b78.scss",
+  "static\\media\\piggame.png": "static/media/piggame.1004401d.png",
+  "static\\media\\todo.png": "static/media/todo.ab9c2e7e.png"
+}
