@@ -1,4 +1,5 @@
 @import '../../scss/base.scss';
+@import '../../scss/animations.scss';
 
 .header {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../../images/background-big.jpeg');
@@ -10,7 +11,7 @@
   flex-direction: column;
 
   & h1 {
-    color: $color-orange;
+    color: $color-blue;
     font-size: 4rem;
     margin: 7vh 0 1rem 0;
     @include textShadow;
