@@ -25,24 +25,7 @@ export const Portfolio = () => {
             linkToLive='#'
             linkToCode='#'
             text='React To Do'/>
-        </div>
-
-
-        {/* <div className='portfolio__items'>
-          <figure className='portfolio__items__figure'>
-            <img src={piggame} alt='piggame screen' />
-            <figcaption>Pig Game: React+CSS+RWD</figcaption>
-          </figure>
-          <figure className='portfolio__items__figure'>
-            <img className='portfolio__items__figure__img' src={todo} alt='todo screen' />
-            <figcaption>To do: React+CSS+RWD</figcaption>
-          </figure>
-        </div>
-        <a 
-          href='https://github.com/adamkulig' className='portfolio__link' target="_blank">
-          More on my gitHub here!
-        </a> */}
-        
+         </div>
       </section>
     </ScrollableAnchor>
   )

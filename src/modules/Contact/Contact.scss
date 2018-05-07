@@ -1,18 +1,17 @@
 @import '../../scss/base.scss';
 
 .contact {
-  background-image: linear-gradient(to right,darken($color-yellow, 15%), darken($color-yellow, 25%));
+  background-image: linear-gradient(to right, $color-pearl, darken($color-pearl, 20%));
 
   &__h1 {
     @include headingInSection(darken($color-almost-black, 10%));
-    @include underline($color-yellow, 2px, 1rem);
+    @include underline($color-blue, 2px, 1rem);
   }
 
-  &__ways {
+  &__contacts {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 1rem 0;
     &__single {
       margin: 0.5rem 0;
       color: darken($color-almost-black, 10%);
@@ -23,10 +22,45 @@
         font-size: 2rem;
         position: relative;
         top: -1px;
-        &.FaFacebook {color: #3b5998;}
-        &.FaGithub {color:#800080;}
-        &.FaEnvelopeO {color:#fff;}
-        &.FaPhone {color:#000;}
+      }
+    }
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    &__single {
+      margin: 1rem 0;
+      color: darken($color-almost-black, 10%);
+      font-size: 3rem;
+      word-spacing: 1px;
+      &__icon {
+        border-radius: 0.5rem;
+        @include flexCenter;
+        width: 4rem;
+        height: 4rem;
+        margin: 0 2rem;
+        transition: all 0.3s;
+        &:hover, &:active {
+          font-size: 3.4rem;
+        }
+        &.FaGithub {
+          color: $color-white;
+          background-color: darken($color-almost-black, 10%);
+          
+        }
+        &.FaFacebook {
+          color: $color-white;
+          background-color: #3b5998;
+        }
+        &.FaAngleDoubleUp {
+          color: darken($color-almost-black, 10%);
+          border: 2px solid darken($color-almost-black, 10%);
+          background-color: $color-white;
+          &:hover, &:active {
+            background-color: darken($color-almost-black, 10%);
+            color: $color-white;
+          }
+        }
       }
     }
   }

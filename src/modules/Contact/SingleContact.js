@@ -3,10 +3,10 @@ import './Contact.scss';
 import classNames from 'classnames';
 
 export const SingleContact = (props) => {
-  const { icon, text } = props;
+  const { icon, text, classIcon } = props;
   return (
-    <div className='contact__ways__single'>
-      <i className={classNames('contact__ways__single__icon', props.classIcon)}>{props.icon}</i>
+    <div className='contact__contacts__single'>
+      <i className={classNames('contact__contacts__single__icon', classIcon)}>{icon}</i>
       <span>{text}</span>
     </div>
   )
