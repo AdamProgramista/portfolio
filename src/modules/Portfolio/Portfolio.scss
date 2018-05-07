@@ -7,7 +7,7 @@
   justify-content: center;
   
   &__h1 {
-    @include headingInSection($color-pearl);
+    @include h1Section($color-pearl);
     @include underline($color-yellow, 2px, 1rem);
   }
   &__projects {
@@ -36,11 +36,8 @@
     width: 100%;
     @include boxShadow;
   }
-  &__text {
-    text-align: center;
-    color: $color-pearl;
-    font-size: 1.2rem;
-    margin: 0.3rem 0;
+  &__text-under-img {
+    @include h4Section($color-pearl)
   }
   &__buttons {
     display: flex;

@@ -51,7 +51,7 @@
     transition: all .3s;
     animation: 
       0.5s bounceIn 2.6s ease backwards, 
-      6s shake 6s infinite;
+      4.5s shake 4.5s infinite;
     
     &:hover, &:active {
       background-color: darken($color-blue, 20%);

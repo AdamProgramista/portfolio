@@ -4,17 +4,12 @@
   background-image: linear-gradient(to right,darken($color-green, 15%), darken($color-green, 25%));
 
   h1 {
-    @include headingInSection($color-pearl);
+    @include h1Section($color-pearl);
     @include underline($color-yellow, 2px, 1rem);
   }
 
   p {
-    font-size: 1.8rem;
-    word-spacing: 1px;
-    text-align: center;
-    margin: 1rem 0;
-    line-height: 2.2rem;
-    color: $color-pearl;
+    @include pSection($color-pearl);
     &:nth-last-child(2){
       margin-bottom: 1.5rem;
       @include underline($color-yellow, 2px, 1rem)

@@ -12,6 +12,11 @@
   box-shadow: 1px 1px 2px #333;
 }
 
+@mixin absolute($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
 @mixin underline($lineColor, $thickness, $lowered) {
     position: relative;
     &:before {
@@ -25,12 +30,49 @@
   }
 }
 
-@mixin headingInSection($fontColor) {
+@mixin h1Section($fontColor) {
   font-size: 2.2rem;
   letter-spacing: 2px;
+  text-align: center;
   margin: 2rem 0;
   color: $fontColor;
+  font-weight: bold;
+}
+
+@mixin h2Section($fontColor) {
+  font-size: 1.8rem;
+  word-spacing: 1px;
   text-align: center;
+  margin: 1rem 0;
+  color: $fontColor;
+  font-weight: bold;
+}
+
+@mixin h3Section($fontColor) {
+  font-size: 1.5rem;
+  word-spacing: 1px;
+  text-align: center;
+  margin: 0.5rem 0;
+  color: $fontColor;
+  font-weight: bold;
+}
+
+@mixin h4Section($fontColor) {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.3rem 0;
+  color: $fontColor;
+  font-weight: normal;
+}
+
+@mixin pSection($fontColor) {
+  font-size: 1.8rem;
+  word-spacing: 1px;
+  text-align: center;
+  margin: 1rem 0;
+  color: $fontColor;
+  line-height: 2.2rem;
+  font-weight: normal;
 }
 
 //mixin of media queries

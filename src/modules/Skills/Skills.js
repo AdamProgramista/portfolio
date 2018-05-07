@@ -16,13 +16,13 @@ export const Skills = () => {
         <a href='#skills'>
           <h1 className='skills__h1'>Skills</h1>
         </a>
-        <h2>Good:</h2>
+        <h2 className='skills__h2'>Good:</h2>
         <div className='skills__logos'>
           <Logo logo={JS_logo} name='JS_logo'/>
           <Logo logo={HTML5_logo} name='HTML5_logo'/>
           <Logo logo={CSS3_logo} name='CSS3_logo'/>
         </div>
-        <h2>Basic:</h2>
+        <h2 className='skills__h2'>Basic:</h2>
         <div className='skills__logos'>
           <Logo logo={React_logo} name='React_logo'/>
           <Logo logo={Sass_logo} name='Sass_logo'/>

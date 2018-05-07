@@ -6,16 +6,12 @@
   padding: 3rem 10%;
 
   &__h1 {
-    @include headingInSection($color-blue);
+    @include h1Section($color-blue);
     @include underline($color-blue, 2px, 1rem);
   }
 
   h2 {
-    font-size: 1.8rem;
-    word-spacing: 1px;
-    text-align: center;
-    margin: 1rem 0;
-    color: $color-blue;
+    @include h2Section($color-blue);
   }
 
   &__logos {
